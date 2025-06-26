@@ -51,9 +51,10 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900 hover:text-brand-black transition-colors duration-200"
+              className="relative text-sm font-bold leading-6 text-gray-900 hover:text-purple-700 transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-105"
             >
               {item.name}
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-yellow transition-all duration-300 hover:w-full"></span>
             </Link>
           ))}
         </div>
@@ -61,9 +62,12 @@ export default function Header() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
             href="/contact"
-            className="bg-brand-yellow hover:bg-yellow-400 text-brand-black font-semibold py-2 px-6 rounded-full transition-colors duration-200"
+            className="group bg-brand-yellow hover:bg-yellow-400 text-brand-black font-semibold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-xl"
           >
             Get Started
+            <svg className="inline ml-1 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
           </Link>
         </div>
       </nav>
@@ -104,7 +108,7 @@ export default function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-bold leading-7 text-gray-900 hover:bg-gray-50"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
