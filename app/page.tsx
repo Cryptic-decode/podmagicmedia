@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -358,7 +358,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-700 leading-relaxed">
-                "Podmagic took my weekly podcast from amateur to pro — my audience grew 3x in 2 months."
+                &ldquo;Podmagic took my weekly podcast from amateur to pro — my audience grew 3x in 2 months.&rdquo;
               </blockquote>
               <div className="flex mt-4">
                 {[...Array(5)].map((_, i) => (
@@ -381,7 +381,7 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-700 leading-relaxed">
-                "I never have to worry about what to post again. These guys handle it all."
+                &ldquo;I never have to worry about what to post again. These guys handle it all.&rdquo;
               </blockquote>
               <div className="flex mt-4">
                 {[...Array(5)].map((_, i) => (
@@ -402,7 +402,7 @@ export default function Home() {
             Ready to scale your content game?
           </h2>
           <p className="mt-6 text-xl text-gray-300 max-w-3xl mx-auto animate-on-scroll animate-slideInUp" style={{animationDelay: '0.2s'}}>
-            Let's chat — no strings attached.
+            Let&apos;s chat — no strings attached.
           </p>
           <div className="mt-10 animate-on-scroll animate-scaleIn" style={{animationDelay: '0.4s'}}>
             <a 

@@ -93,7 +93,7 @@ export default function Contact() {
               </span>
             </h1>
             <p className="mt-8 text-xl leading-8 text-gray-200 max-w-3xl mx-auto sm:text-2xl sm:leading-9 animate-on-scroll animate-slideInUp" style={{animationDelay: '0.2s'}}>
-              Have questions? Want to collaborate? Let's talk.
+              Have questions? Want to collaborate? Let&apos;s talk.
             </p>
             <p className="mt-4 text-lg text-gray-300 max-w-3xl mx-auto animate-on-scroll animate-slideInUp" style={{animationDelay: '0.4s'}}>
               Whether you're launching a podcast or scaling your social media, we're here to help.

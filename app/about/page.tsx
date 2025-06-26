@@ -47,7 +47,7 @@ export default function About() {
               </span>
             </h1>
             <p className="mt-8 text-xl leading-8 text-gray-300 max-w-3xl mx-auto sm:text-2xl sm:leading-9">
-              We're here to turn your content dreams into reality
+              We&apos;re here to turn your content dreams into reality
             </p>
           </div>
         </div>
@@ -69,10 +69,10 @@ export default function About() {
             </h2>
             <div className="prose prose-lg mx-auto text-center animate-on-scroll animate-slideInUp" style={{animationDelay: '0.2s'}}>
               <p className="text-xl leading-relaxed text-gray-600 sm:text-2xl">
-                <span className="font-semibold text-brand-black bg-brand-yellow px-2 py-1 rounded">PodMagic Media</span> was born from a simple idea: content creators shouldn't have to do it all alone.
+                <span className="font-semibold text-brand-black bg-brand-yellow px-2 py-1 rounded">PodMagic Media</span> was born from a simple idea: content creators shouldn&apos;t have to do it all alone.
               </p>
               <p className="mt-6 text-xl leading-relaxed text-gray-600 sm:text-2xl">
-                We're a team of editors, strategists, and creatives passionate about turning raw content into <span className="font-semibold text-purple-700">polished, profitable brands</span>.
+                We&apos;re a team of editors, strategists, and creatives passionate about turning raw content into <span className="font-semibold text-purple-700">polished, profitable brands</span>.
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ export default function About() {
             Ready to Join Our Community?
           </h2>
           <p className="mt-6 text-xl text-gray-300 max-w-4xl mx-auto animate-on-scroll animate-slideInUp" style={{animationDelay: '0.2s'}}>
-            Whether you're just getting started or trying to scale, we're here to help your content reach the people it's meant for.
+            Whether you&apos;re just getting started or trying to scale, we&apos;re here to help your content reach the people it&apos;s meant for.
           </p>
           <div className="mt-10 animate-on-scroll animate-scaleIn" style={{animationDelay: '0.4s'}}>
             <a 
